@@ -1,2 +1,2 @@
-# tornismvc
-PHP MVC framework
+# Tornis-MVC
+PHP framework
