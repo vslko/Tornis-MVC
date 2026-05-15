@@ -1,0 +1,13 @@
+BOOTSTRAP 5
+--------------------------------------
+Breakpoint 	    Prefix 	    Dimensions
+X-Small 	    None 	    <576px
+Small 	        sm 	        ≥576px
+Medium 	        md 	        ≥768px
+Large 	        lg 	        ≥992px
+Extra large	    xl 	        ≥1200px
+Extra x 2 large	xxl 	    ≥1400px
+-------------------------------------
+<div class="d-lg-block d-none desktop-view"> ONLY DESKTOP </div>
+<div class="d-lg-none d-block mobile-view"> ONLY MOBILE </div>
+-------------------------------------

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --main_dark: #66C500;
+    --main_normal: #A5E55B;
+    --main_light: #C1ED8E;
+    --warning: #FF3B30;
+    --text_dark: #272729;
+    --text_normal: #707578;
+    --text_light: #959A9D;
+    --bg_dark: #272729;
+    --bg_normal: #A1A7AC;
+    --bg_light: #F1F5F6;
+}
+
+body { font-family: "Hubot Sans", sans-serif !important; }
+a { color: var(--main_normal); }
+a:hover { color: var(--main_dark); }
+
+.txt-md { color: var(--main_dark) !important; }
+.txt-mn { color: var(--main_normal) !important; }
+.txt-ml { color: var(--main_light) !important; }
+.txt-dark { color: var(--text_dark) !important; }
+.txt-normal { color: var(--text_normal) !important; }
+.txt-light { color: var(--text_light) !important; }
+
+.txt-xxs  { font-size: 14px; font-weight: 500; line-height: 120%;}
+.txt-xs   { font-size: 18px; font-weight: 600; line-height: 120%;}
+.txt-s    { font-size: 20px; font-weight: 600; line-height: 120%;}
+.txt-m    { font-size: 24px; font-weight: 700; line-height: 125%;}
+.txt-l    { font-size: 28px; font-weight: 700; line-height: 110%;}
+.txt-xl   { font-size: 48px; font-weight: 800; line-height: 110%;}
+.txt-xxl  { font-size: 56px; font-weight: 800; line-height: 110%;}
+
+.bg-md { background-color: var(--main_dark) !important; }
+.bg-mn { background-color: var(--main_normal) !important; }
+.bg-ml { background-color: var(--main_light) !important; }
+.bg-dark { background-color: var(--bg_light) !important; }
+.bg-normal { background-color: var(--bg_normal) !important; }
+.bg-light { background-color: var(--bg_light) !important; }
+
+
+select, input, textarea {
+    display: block;
+    width: 100%;
+    padding: 0 24px !important;
+    height:64px !important;
+    background-color: var(--bg_light) !important;
+    border: 0 !important;
+    border-radius: 24px !important;
+    line-height:64px !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    color: var(--text_dark) !important;
+    box-shadow: none !important;
+    outline: 0 !important;
+    outline-offset: 0 !important;
+    background-clip: padding-box !important;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+textarea {
+    padding: 18px !important;
+    height: 120px !important;
+    resize: none;
+}
+
+@media (max-width: 1340px) {
+
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 991px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 600px) {
+
+}
+@media (max-width: 390px) {
+
+}
